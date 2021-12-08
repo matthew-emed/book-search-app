@@ -7,9 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="searchForm">
+    <div id="searchForm" style="width: 80%;">
     <form id="form" >
-        <label>Search Your Favorite Books: <input type="text" id="searchInput"></label>
+        <label>Search Your Favorite Book: <input type="text" id="searchInput" style="margin-bottom: 10px;"></label>
+        <label>Author: <input type="text" id="searchAuthor" style="margin-bottom: 10px;"></label>
+        <label>Subject: <input type="text" id="searchSubject" style="margin-bottom: 10px;"></label>
+        <label>
+            Filter By
+        <select>
+    <option id="newest" value="newest">newest</option>
+  <option id="relevance" value="relevance">relevance</option>
+  
+        </select>
+    </label>
         <br><br>
         <button type="submit">Submit</button>
       </form>
